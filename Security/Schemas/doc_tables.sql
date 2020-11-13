@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [doc_tables] AUTHORIZATION [dbo]
+GO
