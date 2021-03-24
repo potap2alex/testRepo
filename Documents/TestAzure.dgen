@@ -4,7 +4,7 @@
 <DataGenDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="6.2">
   <ConnectionModel>
     <PropertyValue Name="Database">aa8afe9c-7d62-4564-b477-c12e62e0f440</PropertyValue>
-    <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=dbfsqlsrv\SQLLAST;Encrypt=False;Integrated Security=False;User ID=su;password=su</PropertyValue>
+    <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=dbfsqlsrv\SQLLAST;Encrypt=False;Integrated Security=False;User ID=su;Password=su</PropertyValue>
     <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
   </ConnectionModel>
   <Settings>
