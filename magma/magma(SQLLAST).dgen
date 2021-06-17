@@ -6,7 +6,7 @@
     <ProviderVersion>5.7.71.0</ProviderVersion>
     <GeneratorVersion>6.1.1080.0</GeneratorVersion>
     <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-    <ConnectionString>Data Source=dbfsqlsrv\SQLLAST;Encrypt=False;Integrated Security=False;User ID=sa</ConnectionString>
+    <ConnectionString>Data Source=dbfsqlsrv\SQL2019;Encrypt=False;Integrated Security=False;User ID=sa</ConnectionString>
     <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
     <DatabaseName>magma</DatabaseName>
     <AllowNulls>true</AllowNulls>
