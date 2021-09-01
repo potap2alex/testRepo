@@ -6,7 +6,7 @@
     <ProviderVersion>5.7.31.0</ProviderVersion>
     <GeneratorVersion>6.1.1043.0</GeneratorVersion>
     <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-    <ConnectionString>Data Source=dbfsqlsrv\SQLLAST;Encrypt=False;Integrated Security=False;User ID=sa</ConnectionString>
+    <ConnectionString>Data Source=dbfsqlsrv\SQL2019;Encrypt=False;Integrated Security=False;User ID=sa</ConnectionString>
     <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
     <DatabaseName>Jenkins_Test_DG</DatabaseName>
     <AllowNulls>true</AllowNulls>
@@ -63,7 +63,7 @@
   </Tables>
   <SynchronizationOptions xsi:type="SqlDataSynchronizationOptions">
     <SynchronizationFileName>D:\DataGeneration_20190306-1721.sql</SynchronizationFileName>
-    <BackupPathName>C:\Program Files\Microsoft SQL Server\MSSQL14.SQLLAST\MSSQL\Backup</BackupPathName>
+    <BackupPathName>C:\Program Files\Microsoft SQL Server\MSSQL14.SQL2019\MSSQL\Backup</BackupPathName>
     <CompareColumnStoreTables>true</CompareColumnStoreTables>
   </SynchronizationOptions>
 </DataGenDocument>

@@ -4,7 +4,7 @@
 <DataGenDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="6.2">
   <ConnectionModel>
     <PropertyValue Name="Database">aa8afe9c-7d62-4564-b477-c12e62e0f440</PropertyValue>
-    <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=dbfsqlsrv\SQLLAST;Encrypt=False;Integrated Security=False;User ID=su</PropertyValue>
+    <PropertyValue Name="ConnectionString" xml:space="preserve">Data Source=dbfsqlsrv\SQL2019;Encrypt=False;Integrated Security=False;User ID=su</PropertyValue>
     <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
   </ConnectionModel>
   <Settings>
@@ -134,7 +134,7 @@
   </Tables>
   <SynchronizationOptions xsi:type="SqlDataSynchronizationOptions">
     <SynchronizationFileName>D:\github\testRepo\DataGeneration_Etalon.sql</SynchronizationFileName>
-    <BackupPathName>C:\Program Files\Microsoft SQL Server\MSSQL15.SQLLAST\MSSQL\Backup</BackupPathName>
+    <BackupPathName>C:\Program Files\Microsoft SQL Server\MSSQL15.SQL2019\MSSQL\Backup</BackupPathName>
     <CompareColumnStoreTables>true</CompareColumnStoreTables>
   </SynchronizationOptions>
 </DataGenDocument>

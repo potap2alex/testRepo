@@ -9,7 +9,7 @@
     <Description />
     <EnableBreadcrumbs>true</EnableBreadcrumbs>
     <Header />
-    <Title>DBFSQLSRV\SQLLAST</Title>
+    <Title>DBFSQLSRV\SQL2019</Title>
     <TitleImage>logo.svg</TitleImage>
     <Style>bootstrap/Default.css</Style>
     <FileFormat>Html</FileFormat>
@@ -18,14 +18,14 @@
     <Servers>
       <Server>
         <Provider>aa8afe9c-7d62-4564-b477-c12e62e0f440</Provider>
-        <ConnectionString>Data Source=DBFSQLSRV\SQLLAST;Encrypt=False;Initial Catalog=master;Integrated Security=False;User ID=su;password=su</ConnectionString>
-        <ConnectionName>DBFSQLSRV\SQLLAST</ConnectionName>
+        <ConnectionString>Data Source=DBFSQLSRV\SQL2019;Encrypt=False;Initial Catalog=master;Integrated Security=False;User ID=su;password=su</ConnectionString>
+        <ConnectionName>DBFSQLSRV\SQL2019</ConnectionName>
         <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
       </Server>
     </Servers>
   </Settings>
   <IncludedSection>
     <Section Uid="Root[Project].CoverPage[CoverPage]" Included="true" />
-    <Section Uid="Root[Project].List[Servers].Server[DBFSQLSRV\SQLLAST].List[UserDatabases].Database[TestAzure]" Included="true" />
+    <Section Uid="Root[Project].List[Servers].Server[DBFSQLSRV\SQL2019].List[UserDatabases].Database[TestAzure]" Included="true" />
   </IncludedSection>
 </SerializationModel>
