@@ -1,9 +1,4 @@
-﻿USE polar_data
-GO
-
-IF DB_NAME() <> N'polar_data' SET NOEXEC ON
-GO
---
+﻿--
 -- Delete data from the table 'dbo.t1'
 --
 TRUNCATE TABLE dbo.t1
