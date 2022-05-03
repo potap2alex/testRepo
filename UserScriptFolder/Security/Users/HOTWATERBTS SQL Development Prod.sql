@@ -1,3 +1,3 @@
-﻿CREATE USER [HOTWATER\BTS SQL Development Prod]
+﻿CREATE USER [BTS SQL Development Prod]
   WITHOUT LOGIN
 GO

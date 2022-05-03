@@ -1,3 +1,3 @@
-﻿CREATE USER [HOTWATER\mcourville]
+﻿CREATE USER [mcourville]
   WITHOUT LOGIN
 GO
