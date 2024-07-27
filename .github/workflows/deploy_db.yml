@@ -35,4 +35,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          Invoke-DevartDatabaseBuild -Connection 'Data Source=(local);Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password=su' -SourceScriptsFolder 'source_control_sf'
+
+      # Runs a single command using the runners shell - Build database
+      - name: Build database from scripts folder
+        run: Invoke-DevartDatabaseBuild -Connection 'Data Source=(local);Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password=su' -SourceScriptsFolder 'source_control_sf'
