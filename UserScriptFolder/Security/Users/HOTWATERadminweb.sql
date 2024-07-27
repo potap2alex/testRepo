@@ -1,3 +1,0 @@
-﻿CREATE USER [adminweb]
-  WITHOUT LOGIN
-GO

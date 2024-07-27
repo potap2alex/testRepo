@@ -1,3 +1,0 @@
-﻿CREATE USER [##MS_SSISServerCleanupJobUser##]
-  WITHOUT LOGIN
-GO

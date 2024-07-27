@@ -1,3 +1,0 @@
-﻿CREATE USER [ModuleSigner]
-  WITHOUT LOGIN
-GO

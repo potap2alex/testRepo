@@ -1,3 +1,0 @@
-﻿CREATE USER [HOTWATER\adminweb]
-  WITHOUT LOGIN
-GO

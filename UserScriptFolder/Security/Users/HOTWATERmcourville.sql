@@ -1,3 +1,0 @@
-﻿CREATE USER [mcourville]
-  WITHOUT LOGIN
-GO
