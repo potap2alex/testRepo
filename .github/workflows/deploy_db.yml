@@ -39,4 +39,4 @@ jobs:
       # Runs a single command using the runners shell - Build database
       - name: Build database from scripts folder
         shell: powershell
-        run: Invoke-DevartDatabaseBuild -Connection 'Data Source=(local);Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password=su'
+        run: Invoke-DevartDatabaseBuild -Connection 'Data Source=(local);Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password=su'  -SourceScriptsFolder 'd:\actions-runner\_work\testRepo\testRepo'
