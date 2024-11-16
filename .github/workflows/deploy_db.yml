@@ -40,5 +40,5 @@ jobs:
       - name: Build database from scripts folder
         shell: powershell
         env:
-           SUPER_SECRET: ${{ build_server_pass }}
-        run: Invoke-DevartDatabaseBuild -Connection 'Data Source=NB110\SQL2022;Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password=$env:SUPER_SECRET'  -SourceScriptsFolder 'd:\actions-runner\_work\testRepo\testRepo'
+           SUPER_SECRET: ${{ secrets.build_server_pass }}
+        run: Invoke-DevartDatabaseBuild -Connection 'Data Source=NB110\SQL2022;Encrypt=False;Initial Catalog=db_github;Integrated Security=False;User ID=su;password="$env:SUPER_SECRET"'  -SourceScriptsFolder 'd:\actions-runner\_work\testRepo\testRepo'
