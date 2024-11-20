@@ -41,4 +41,4 @@ jobs:
         shell: powershell
         env:
            SUPER_SECRET: ${{ secrets.SERVER_CONNECTION }}
-        run: Invoke-DevartDatabaseBuild -Connection '$env:SUPER_SECRET' -SourceScriptsFolder 'd:\actions-runner\_work\testRepo\testRepo'
+        run: Invoke-DevartDatabaseBuild -Connection "$env:SUPER_SECRET" -SourceScriptsFolder 'd:\actions-runner\_work\testRepo\testRepo'
