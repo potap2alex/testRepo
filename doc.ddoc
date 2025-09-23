@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), Documenter document file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<SerializationModel Version="1.1">
+  <Servers>
+    <ConnectionModel Name="NB110\SQL2022">
+      <PropertyValue Name="Database">aa8afe9c-7d62-4564-b477-c12e62e0f440</PropertyValue>
+      <PropertyValue Name="Id">d61d7c28-fbaa-4a60-b5eb-9538fbdee036</PropertyValue>
+      <PropertyValue Name="ConnectionString" xml:space="preserve">Connection Timeout=20;Data Source=NB110\SQL2022;Encrypt=False;Integrated Security=False;User ID=su</PropertyValue>
+      <PropertyValue Name="ExecutionTimeout">25</PropertyValue>
+    </ConnectionModel>
+  </Servers>
+  <Settings>
+    <Autor />
+    <Copyright>Copyright © All Rights Reserved</Copyright>
+    <CreatedDateFormat>dd/MM/yyyy</CreatedDateFormat>
+    <Description />
+    <EnableBreadcrumbs>true</EnableBreadcrumbs>
+    <Header />
+    <Title>NB110\SQL2022</Title>
+    <TitleImage>logo.svg</TitleImage>
+    <Style>bootstrap/Default.css</Style>
+    <FileFormat>Html</FileFormat>
+    <OpenAfterGeneration>true</OpenAfterGeneration>
+    <AppendTimestamp>true</AppendTimestamp>
+    <Path>C:\Users\AlexeyPot\Documents</Path>
+    <Output />
+  </Settings>
+  <IncludedSection>
+    <Section Uid="Root[Project].CoverPage[CoverPage]" Included="true" />
+    <Section Uid="Root[Project].List[Servers].Server[NB110\SQL2022].List[UserDatabases].Database[a_DevOps_test]" Included="true" />
+  </IncludedSection>
+</SerializationModel>
